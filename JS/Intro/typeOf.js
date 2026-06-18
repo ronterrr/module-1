@@ -16,3 +16,24 @@ console.log(`nullVal ${nullVal}, its type is ${typeof nullVal}`);
 
 let unValue;
 console.log(`unValue ${unValue}, its type is ${typeof unValue}`);
+
+const bonus = "200";
+const salary = 50000;
+
+const salaryGross = bonus + salary;
+console.log(`Gross salary is ${salaryGross}, its type ${typeof salaryGross}`);
+
+const paye = salaryGross * 0.16;
+console.log(`For gross salary of ${salaryGross}, Paye is ${paye}`);
+
+const nhif = 2500;
+console.log(`Nhif deduction is ${nhif}`);
+
+const sha = 2500;
+console.log(`SHA is ${sha}`);
+
+const totalDeductions = paye + nhif + sha;
+console.log(`Total deduction is ${totalDeductions}`);
+
+const netSalary = salaryGross-totalDeductions;
+console.log(`Your net salary is ${netSalary}`);
