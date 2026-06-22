@@ -21,3 +21,15 @@ console.log(strictInequality);
 let nonStrictInequality = val1 != val2;
 
 console.log(nonStrictInequality);
+
+
+let num3 = 20;
+let num4 = 10;
+
+let str1 = 'a';
+let str2 = 'b';
+
+console.log(`${str1} = ${str1.charCodeAt(0)}`);
+console.log(`${str2} = ${str2.charCodeAt(0)}`);
+
+console.log(`${str2} > ${str1} ? ${str2 > str1}`);
