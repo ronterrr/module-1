@@ -13,7 +13,7 @@ console.log(`Is Mercy's age greater than 18? ${isGreaterThan18}`);
 let hasMoreThan20k = mercyBalance > 20000;
 console.log(`Does Mercy have more than 20k? ${hasMoreThan20k}`);
 
-console.log(`Is Mercy's age greater than 18 and does she have more than 20k in her account? ${(isGreaterThan18 && hasMoreThan20k) ? "Yes" : "No"}`);
+console.log(`Is Mercy's age greater than 18 or does she have more than 20k in her account? ${(isGreaterThan18 || hasMoreThan20k) ? "Yes" : "No"}`);
 
 let simplified = mercyAge > 18 && mercyBalance > 20000;
 
