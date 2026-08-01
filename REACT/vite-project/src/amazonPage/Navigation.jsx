@@ -7,12 +7,12 @@ ensure before import its in the src directory
 
 import logo from "./assets/logo.png";
 
-function Navigate(){
+function Navigation(){
     return(
         <>
-        <div>
-            <img src={logo} height={'40px'}/>
-            <h2>Navigation section</h2>
+        <div className="nav">
+            <img src={logo} width="60px"/>
+            <input placeholder="Search"/>
         </div>
         </>
     )
@@ -23,4 +23,4 @@ export so that any other file can import the component
 1. Default export component
 */
 
-export default Navigate;
+export default Navigation;
