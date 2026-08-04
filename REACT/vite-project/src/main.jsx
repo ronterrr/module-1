@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import StateAndEvents from './amazonPage2.0/StateAndEvents/ClickMe';
+import StateAndEvents from './StateAndEvents/Form2.0';
 
 createRoot(document.getElementById("root")).render(
 <StrictMode>
